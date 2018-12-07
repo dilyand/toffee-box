@@ -10,10 +10,10 @@ targets:
 
 # Required: packages to be deployed
 packages:
-  - name     : "snowflake-loader-assets"
-    bucket   : "snowplow-hosted-assets"                    # TODO: Change
-    path     : "4-storage/toffee-box"    # TODO: Change
-    region   : "eu-west-1"
+  - name     : "dilyand-toffeebox"
+    bucket   : "dilyan-test-lambda"
+    path     : "toffee-box"
+    region   : "eu-west-2"
 
 
     # Will attempt to overwrite a published entity if one is found
