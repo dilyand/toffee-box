@@ -1,5 +1,8 @@
 # toffee-box
 
+[![Build Status][travis-image]][travis]
+[![Release][release-image]][releases]
+
 Testing automated deployment with Travis.
 
 - [x] Commits to any branch should trigger `sbt test`.
