@@ -6,9 +6,13 @@ jdk:
 script:
 - sbt test
 deploy:
+  provider: s3
+  access_key_id:
+  secret_access_key:
+  bucket: "dilyan-test-lambda"
+  local_dir: "./target/scala-2.11"
+  upload_dir: "travis-builds"
   skip_cleanup: true
-  provider: script
-  script: "./.travis/simple-deploy/deploy.sh $TRAVIS_TAG"
   on:
     tags: true
 env:
