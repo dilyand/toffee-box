@@ -1,6 +1,6 @@
 language: scala
 scala:
-- 2.11.11
+- 2.11.12
 jdk:
 - oraclejdk8
 script:
@@ -12,6 +12,5 @@ deploy:
   provider: script
   script: ./.travis/deploy.sh $TRAVIS_TAG
   on:
-    # Deploy iff some tag is specified
+    # Deploy if some tag is specified
     tags: true
-

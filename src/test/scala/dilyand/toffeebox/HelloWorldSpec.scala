@@ -6,7 +6,7 @@ class HelloWorldSpec extends Specification {
   import HelloWorld._
 
   "Using HelloWorld" >> {
-    "should return a string" >> {
+    "should return a valid string" >> {
       val expected = "Hello, world!"
       HelloWorld.main shouldEqual expected
     }
