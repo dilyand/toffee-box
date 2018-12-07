@@ -12,7 +12,7 @@ deploy:
     tags: true
   skip_cleanup: true
   provider: script
-  script: bash ./travis/simple-deploy/deploy.sh
+  script: bash ./dilyan/tofee-box/travis/simple-deploy/deploy.sh
 env:
   global:
   - secure: o/cAHGjwX+y2B7LE/bO7nY72mQw91ZqZE2bby0ceKiPpuBiuEol1p5IW5a8kZbt99MwRFfU2KnCBL6RRBJ3cOjPnYb181FI1MV1ytKnboAWG6r/B7kXsCC07GoSM+C9579dL2LkWKKzK3DJnUXvcFIj5+ugU5/tcpWDjW+MV5KNz0gCB6vgZnCbEPdJafbndGF5hGSSN3gPWl9arvEUnoR7w7+hp6NLnUqbXh+zwiJ0RX+EnOXNGIf9WFAB3De2kPCEyYzfrXr3K9yrv/Buf8Jmx4y4cIKCFLbKSOljqR3tGUhqlb06MFMBzoRr0jj5qwuYsERe83FRISm1LlbOyc0O/0/d59abcAPL/s/vXxYjo1Qqn6Y0gFZeSlQPsuW3MN2pmGa5+fE4lTWf/g1ZY6KpV1uNZMZ1UjutlOAmZxKjdsuDVAZVqJ0AUEYTmS4YbB5c8x6M7EX/JbTtXiV7YOUZbtGnxxQsNh6Dt6eoLIj87rB00w3ij37lWzPp5FpVACMENmG9LSTV+02NHs+xamiCI4tO2rjDAC4XfTvtOn84TEwVMims4uHpkWpSAipfNhNgszBbD46CW0RGjumu61bQ3rmK8wzHsn75rHoMGBYFCa8bAVcTcPtPD27BIS9ID/G5obRDEqclBSg6Epv+sNTMoIabRQS4aalXRBEfBclI=
