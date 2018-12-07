@@ -10,7 +10,7 @@ before_deploy:
 deploy:
   skip_cleanup: true
   provider: script
-  script: "./.travis/deploy.sh $TRAVIS_TAG"
+  script: "./.travis/simple-deploy/deploy.sh $TRAVIS_TAG"
   on:
     tags: true
 env:
