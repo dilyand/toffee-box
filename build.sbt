@@ -1,7 +1,7 @@
 lazy val root = project.in(file("."))
   .settings(
     name := "toffeebox",
-    version := "0.1.0-rc8",
+    version := "0.1.0-rc1",
     organization := "dilyand",
     scalaVersion := "2.11.12",
     initialCommands := "import dilyand.toffeebox._"
