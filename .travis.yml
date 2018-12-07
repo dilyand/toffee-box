@@ -14,7 +14,8 @@ deploy:
     ZAqVRUdG4AyNNaECv8q7SJkKy5tbS6lLP623rniXb1LvSe9FkNJCgzd3ZmLu6/3QSrUoqynogiRiincyuvE7cR5BZ5t70DnTP/fwX2YMZce9qZUntYJx7Xj0DZp1U6x2NtYuB5aoFvHtEZSgXG5RRf/NYilUiIkRJ0S3GUzd7Q4Kd2s64kq5CtjPxuYFQuOTEF4WHUHBrD2M/PT2WmovWFyVhE/MOE4SfkXi1Qr0CJQG+lGf1PVewgGttntoZMoh8nn/n8jAIqwztOAYDmYsGLMT0RZ//HOvXkRR6tFMlLZE3yJAN9VY8zeTnn/nTAe+K/yJtvQmYLDItxvGAeoz6bBO9IDESKv4IG5eLvqplqVbWFneq2DVHo9u0xZLuT6Uv0Og8G+pFA/RN2RuIMGSXzq1IybXy81rK9xUu3RBr8maMmggDEvc369hM0XW4FD4A0ApfLZNPS9+2oskSmMGwMq6mQW0HnjqChHKIsXED8SirtJr7EUUnUPHDb5TcpbFtwJQhBYThDgvWll0bazeZvfDvICb6O5lvCLRhdeQ/ppvSUVsz3jkfUhFz3IuKxox0c6RQMKOvnvQTiBMoulSiUe1hDd6aZR6B1ux2mP7NcOygWk9khPUV9Uw1kiVLPLlkXA/gkdJP7a05hmNg/8dEs2w6mE+u/RqQCU07EIGogk=
   bucket: dilyan-test-lambda
   local_dir: "./target/scala-2.11"
-  upload_dir: travis-builds
+  upload_dir: "travis-builds"
+  region: "eu-west-2"
   skip_cleanup: true
   on:
     tags: true
