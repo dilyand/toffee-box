@@ -6,4 +6,6 @@
 Testing automated deployment with Travis.
 
 - [x] Commits to any branch should trigger `sbt test`.
-- [ ] Tagged commits should trigger `./deploy.sh` and upload the `jar` to S3.
+- [x] Tagged commits should trigger `./deploy.sh` and upload the `jar` to S3.
+
+Lesson learned: encrypt secrets with the `--pro` flag or you're fucked.
