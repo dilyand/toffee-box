@@ -6,6 +6,8 @@ jdk:
 jobs:
   include:
     - if: tag IS present
+  exclude:
+    - if: tag IS blank
 before_deploy:
 - pip install --user awscli
 deploy:
