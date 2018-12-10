@@ -13,5 +13,5 @@ Lesson learned: encrypt secrets with the `--pro` flag or you're fucked.
 [travis-image]: https://travis-ci.org/snowplow/snowplow.png?branch=master
 [travis]: http://travis-ci.org/snowplow/snowplow
 
-[release-image]: https://img.shields.io/badge/release-0.1.0-rc1-orange.svg?style=flat
-[releases]: https://github.com/snowplow/snowplow/releases
+[release-image]: https://img.shields.io/badge/release-0.1.0-orange.svg?style=flat
+[releases]: https://travis-ci.com/dilyand/toffee-box
