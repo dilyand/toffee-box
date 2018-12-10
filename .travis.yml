@@ -3,8 +3,8 @@ scala:
 - 2.11.12
 jdk:
 - oraclejdk8
-script:
-- sbt test
+#script:
+#- sbt test
 before_deploy:
 - pip install --user awscli
 deploy:
