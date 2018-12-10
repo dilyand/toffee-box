@@ -3,7 +3,7 @@ scala:
 - 2.11.12
 jdk:
 - oraclejdk8
-script:
+script: pwd
 jobs:
   include:
     - if: tag IS present
