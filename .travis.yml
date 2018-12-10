@@ -5,7 +5,9 @@ jdk:
 - oraclejdk8
 #script:
 #- sbt test
-if: tag IS present
+jobs:
+  include:
+    - if: tag IS present
 before_deploy:
 - pip install --user awscli
 deploy:
